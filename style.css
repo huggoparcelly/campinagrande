@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #dbdbdb;
+    background-color: #e4f8d9;
+    color: #375e57;
 }
 
 .header {
@@ -19,13 +20,12 @@ body {
 
 .header h1 {
     position: absolute;
-    color: whitesmoke;
+    color: #e4f8d9;
     margin: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header-intro {
-    color: black;
     font-size: 18px;
     margin: 20px;
     text-align: center;
@@ -57,9 +57,10 @@ body {
 }
 
 
-.facts {
+.facts, .infos, .touristic {
     margin: 20px;
     margin-top: 50px;
+    text-align: center;
 }
 
 .infos h1 {
@@ -75,6 +76,23 @@ body {
     line-height: 18px;
 }
 
-.infos p strong {
+.infos p strong, .infos ul li strong {
     text-transform: uppercase;
+}
+
+.infos ul {
+    margin: 10px;
+}
+
+.infos ul li {
+    margin: 20px;
+    padding: 1px;
+    text-align: justify;
+    display: block;
+}
+
+.touristic img {
+    width: 500px;
+    height: 300px;
+    margin: 10px;
 }
