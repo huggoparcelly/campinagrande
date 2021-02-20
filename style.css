@@ -70,7 +70,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.infos p{
+.infos p, .back p{
     text-align: justify;
     margin-top: 20px;
     margin: 20px;
@@ -100,6 +100,7 @@ body {
     perspective: 1000px;
     margin: 10px;
     display: inline-block;
+    text-align: center;
 }
 
 
@@ -109,7 +110,6 @@ body {
     height: 100%;
     transition: 0.6s;
     transform-style: preserve-3d;
-    vertical-align: middle;
 }
 
 .flip-container:hover .flipper, .back {
@@ -130,16 +130,20 @@ body {
     margin: 5px;
 }
 
-.back p {
-    text-align: justify;
-    margin: 5px;
-    padding: 10px;
-}
 
 .arrow {      
     text-align: right;
     margin-right: 10px;
 }
+
 .arrow img {
     height: 35px;
+}
+
+.search {
+    margin: 20px;
+}
+
+.search ul li{
+    display: block;
 }
